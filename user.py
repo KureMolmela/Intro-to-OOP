@@ -5,7 +5,7 @@ class User:
         self.schoolAddress = schoolAddress
 
     def show(self):
-        print("School Name: ", self.schoolName, "School Address: ", self.schoolAddress)
+        print("School Name: ", self.schoolName, "\n", "School Address: ", self.schoolAddress)
 
     def register(self, name, phone, email, password):
         return name
